@@ -95,7 +95,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -146,7 +146,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -197,7 +197,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -251,7 +251,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -305,7 +305,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -359,7 +359,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -413,7 +413,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -467,7 +467,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -521,7 +521,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -575,7 +575,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -629,7 +629,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -683,7 +683,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -737,7 +737,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -791,7 +791,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -845,7 +845,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -899,7 +899,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -953,7 +953,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1007,7 +1007,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1061,7 +1061,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1115,7 +1115,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1169,7 +1169,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1223,7 +1223,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1277,7 +1277,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1331,7 +1331,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1385,7 +1385,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1439,7 +1439,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1493,7 +1493,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1547,7 +1547,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1601,7 +1601,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1655,7 +1655,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1709,7 +1709,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1763,7 +1763,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1817,7 +1817,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1871,7 +1871,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1925,7 +1925,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1979,7 +1979,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -2033,7 +2033,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
