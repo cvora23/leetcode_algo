@@ -50,7 +50,7 @@ A simple method is to run two loops and calculate the value of Binomial Coeffici
 // A simple O(n^3) program for Pascal's Triangle
 #include <stdio.h>
 
-// See http://www.geeksforgeeks.org/archives/25621 for details of this function
+// See https://www.geeksforgeeks.org/?p=25621 for details of this function
 int binomialCoeff(int n, int k);
 
 // Function to print first n lines of Pascal's Triangle
@@ -84,7 +84,11 @@ After simplifying, we get
 C(n, k) = [n * (n-1) * .... * (n-k+1)] / [k * (k-1) * .... * 1]
 
 Also, C(n, k) = C(n, n-k)  // we can change r to n-r if r > n-r
+
+https://www.youtube.com/watch?time_continue=67&v=d1Mtfs7dWlg
+
 Following implementation uses above formula to calculate C(n, k)
+
  */
 
 // Returns value of Binomial Coefficient C(n, k)

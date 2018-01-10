@@ -7,8 +7,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -20,7 +24,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1283990539" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1060277998" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1060277998" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1181642681" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug">
 								<outputEntries>
 									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Debug"/>
@@ -95,7 +99,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -107,8 +111,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -120,7 +128,7 @@
 				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.release.1147571005" name="Release" parent="cdt.managedbuild.config.gnu.exe.release">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.release.1147571005." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.1514730158" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.release.975044513" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.release.975044513" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Release" id="cdt.managedbuild.target.gnu.builder.exe.release.316476950" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.release"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1225792534" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.345327076" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
@@ -146,7 +154,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -167,37 +175,37 @@
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.653951045" name="Example1" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.653951045." name="/" resourcePath="">
-						<toolChain id="cdt.managedbuild.toolchain.gnu.macosx.base.1859735375" name="MacOSX GCC" superClass="cdt.managedbuild.toolchain.gnu.macosx.base">
-							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.MachO64" id="cdt.managedbuild.target.gnu.platform.macosx.base.94415306" name="Debug Platform" osList="macosx" superClass="cdt.managedbuild.target.gnu.platform.macosx.base"/>
-							<builder buildPath="${workspace_loc:/LeetCodeAlgoProject}/Example1" id="cdt.managedbuild.target.gnu.builder.macosx.base.1516497515" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.macosx.base"/>
-							<tool id="cdt.managedbuild.tool.macosx.c.linker.macosx.base.1151209924" name="MacOS X C Linker" superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.base"/>
-							<tool id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.base.1114452109" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.base">
-								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.254473033" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.macosx.base.1272028094" name="MacOSX GCC" superClass="cdt.managedbuild.toolchain.gnu.macosx.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.MachO64" id="cdt.managedbuild.target.gnu.platform.macosx.base.1832663945" name="Debug Platform" osList="macosx" superClass="cdt.managedbuild.target.gnu.platform.macosx.base"/>
+							<builder buildPath="${workspace_loc:/LeetCodeAlgoProjectMedium}/Example1" id="cdt.managedbuild.target.gnu.builder.macosx.base.1635464828" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.macosx.base"/>
+							<tool id="cdt.managedbuild.tool.macosx.c.linker.macosx.base.1406757484" name="MacOS X C Linker" superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.base"/>
+							<tool id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.base.1403617772" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.base">
+								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.684777632" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
 								</inputType>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.assembler.macosx.base.1753494432" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.macosx.base">
-								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.142603623" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.macosx.base.940313928" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.macosx.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1490135306" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.archiver.macosx.base.1058527789" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.macosx.base"/>
-							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.base.1239356098" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.base">
-								<option id="gnu.cpp.compiler.option.include.paths.1364359333" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+							<tool id="cdt.managedbuild.tool.gnu.archiver.macosx.base.913859595" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.macosx.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.base.1489747519" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.base">
+								<option id="gnu.cpp.compiler.option.include.paths.1945799031" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include}&quot;"/>
 								</option>
-								<option id="gnu.cpp.compiler.option.optimization.level.458803792" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
-								<option id="gnu.cpp.compiler.option.debugging.level.757584977" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
-								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.284686519" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+								<option id="gnu.cpp.compiler.option.optimization.level.1881276156" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1464437723" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1610107260" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
-							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.base.1685752397" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.base">
-								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1621449499" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
-								<option id="gnu.c.compiler.option.debugging.level.1175790984" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
-								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.685094920" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.base.1410127373" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.base">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.618339855" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.881560042" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1656551952" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -209,8 +217,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -222,7 +234,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1787381914" name="Example2" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1787381914." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.4514813" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1211061444" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1211061444" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1634137721" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.666491310" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.840697823" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -251,7 +263,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -263,8 +275,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -276,7 +292,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1320352894" name="Example3" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1320352894." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1535242092" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1396718405" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1396718405" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.2060961090" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.94043370" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1443052600" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -305,7 +321,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -317,8 +333,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -330,7 +350,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1661098948" name="Example4" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1661098948." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.25523554" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1464128514" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1464128514" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1868747240" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.313567221" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.340975755" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -359,7 +379,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -371,8 +391,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -384,7 +408,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1451139263" name="Example5" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1451139263." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.93104285" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1579115349" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1579115349" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.126220150" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1926431855" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.358624458" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -413,7 +437,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -425,8 +449,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -438,7 +466,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.2011867738" name="Example6" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.2011867738." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.794954943" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.68213387" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.68213387" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.2082741311" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.90796124" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1072240492" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -467,7 +495,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -479,8 +507,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -492,7 +524,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.706544549" name="Example7" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.706544549." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.784378048" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1159802153" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1159802153" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1931899620" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.448025862" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1819071585" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -521,7 +553,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -533,8 +565,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -546,7 +582,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1348067340" name="Example8" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1348067340." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.634923613" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.221620793" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.221620793" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.729535988" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.2029588221" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.974654750" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -575,7 +611,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -587,8 +623,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -600,7 +640,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.87194520" name="Example9" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.87194520." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.17362602" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.423739958" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.423739958" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.710715914" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1687514474" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2068747826" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -629,7 +669,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -641,8 +681,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -654,7 +698,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.990089836" name="Example10" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.990089836." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.2035665472" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.836329984" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.836329984" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.2140714448" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1587277414" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1743690690" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -683,7 +727,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -695,8 +739,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -708,7 +756,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.869173827" name="Example11" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.869173827." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.417792341" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1672451898" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1672451898" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1619129366" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1108363605" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1159383933" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -737,7 +785,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -749,8 +797,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -762,7 +814,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.2035965605" name="Example12" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.2035965605." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.315348852" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1670086910" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1670086910" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1136232762" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.522755747" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.307176416" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -791,7 +843,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -803,8 +855,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -816,7 +872,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1748946729" name="Example13" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1748946729." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.539365639" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.234802418" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.234802418" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.665601368" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.419312727" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1769330915" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -845,7 +901,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -857,8 +913,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -870,7 +930,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1272497310" name="Example14" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1272497310." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.482371752" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1990441089" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1990441089" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1914395239" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.584183184" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1119052614" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -899,7 +959,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -911,8 +971,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -924,7 +988,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1075153110" name="Example15" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1075153110." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1599746698" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1496023942" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1496023942" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.366408933" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1062750367" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1885121660" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -953,7 +1017,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -965,8 +1029,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -978,7 +1046,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.2038766703" name="Example16" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.2038766703." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1162632310" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.390138879" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.390138879" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1751238350" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1734733372" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.289426413" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1007,7 +1075,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1019,8 +1087,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1032,7 +1104,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.162086703" name="Example17" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.162086703." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1430313892" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1291848723" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1291848723" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1476048028" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1329325506" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1434677428" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1061,7 +1133,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1073,8 +1145,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1086,7 +1162,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1502096937" name="Example18" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1502096937." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1610798892" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1093160254" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1093160254" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.761152081" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.696760748" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.770873709" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1115,7 +1191,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1127,8 +1203,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1140,7 +1220,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1299480356" name="Example19" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1299480356." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.2012671518" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1130609442" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1130609442" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.2081215499" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1452948801" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.396406362" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1169,7 +1249,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1181,8 +1261,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1194,7 +1278,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.335525975" name="Example20" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.335525975." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1030459126" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.874534941" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.874534941" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.960863008" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.2094915210" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1293650945" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1223,7 +1307,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1235,8 +1319,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1248,7 +1336,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1378810479" name="Example21" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1378810479." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.603113256" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.971485812" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.971485812" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.700890968" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.430838352" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1317407145" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1277,7 +1365,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1289,8 +1377,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1302,7 +1394,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1115392127" name="Example22" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1115392127." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1381622844" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.2050352459" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.2050352459" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1209173868" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1616857104" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.913923286" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1331,7 +1423,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1343,8 +1435,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1356,7 +1452,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.2031629452" name="Example23" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.2031629452." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.958868004" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.380664762" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.380664762" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.551115986" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.151022321" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1048580677" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1385,7 +1481,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1397,8 +1493,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1410,7 +1510,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1208883676" name="Example24" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1208883676." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.83369684" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.2099065445" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.2099065445" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.474077524" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1567968680" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1491018031" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1439,7 +1539,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1451,8 +1551,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1464,7 +1568,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.623833609" name="Example25" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.623833609." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.806939260" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.274696051" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.274696051" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.939831175" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1275078905" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.210459915" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1493,7 +1597,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1505,8 +1609,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1518,7 +1626,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.952403862" name="Example26" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.952403862." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.527040146" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.2065206059" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.2065206059" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1506161979" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1965273558" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.901935340" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1547,7 +1655,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1559,8 +1667,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1572,7 +1684,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.792085817" name="Example27" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.792085817." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1447450920" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1260977398" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1260977398" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.77539222" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.314490709" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.628187366" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1601,7 +1713,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1613,8 +1725,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1626,7 +1742,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.504073946" name="Example28" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.504073946." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.621241473" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1620136376" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1620136376" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.297621756" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1864627239" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1611474712" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1655,7 +1771,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1667,8 +1783,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1680,7 +1800,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.874276518" name="Example29" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.874276518." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.224770928" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1184067033" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1184067033" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1814808792" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1673551693" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2036978587" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1709,7 +1829,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1721,8 +1841,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1734,7 +1858,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.876213167" name="Example30" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.876213167." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1384078037" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.979279696" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.979279696" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1011004080" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1115724245" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1498574020" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1763,7 +1887,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1775,8 +1899,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1788,7 +1916,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.907664066" name="Example31" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.907664066." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.27765820" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.2070450564" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.2070450564" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1766337262" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1486987579" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.209009674" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1817,7 +1945,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1829,8 +1957,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1842,7 +1974,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1795289831" name="Example32" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1795289831." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.563628347" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1821014226" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1821014226" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1590829310" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.142322068" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1064151878" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1871,7 +2003,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1883,8 +2015,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1896,7 +2032,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.687846234" name="Example33" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.687846234." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1806283939" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1938253740" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1938253740" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.423560472" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.313507656" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.681776309" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1925,7 +2061,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1937,8 +2073,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -1950,7 +2090,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1683493113" name="Example34" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1683493113." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1912809951" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.2042651411" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.2042651411" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1728182564" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.217385532" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.253142101" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -1979,7 +2119,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1991,8 +2131,12 @@
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -2004,7 +2148,7 @@
 				<configuration artifactName="${ProjName}${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1269221697" name="Example35" parent="cdt.managedbuild.config.gnu.exe.debug">
 					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.2114143187.1269221697." name="/" resourcePath="">
 						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1073766319" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
-							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.exe.debug.1882809867" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.SOM" id="cdt.managedbuild.target.gnu.platform.exe.debug.1882809867" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
 							<builder buildPath="${workspace_loc:/Ch03Project}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1053468083" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.838491680" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.534693236" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
@@ -2033,7 +2177,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="RevereseVowelsInString.cpp|RangeSumQuery.cpp|NimGame.cpp|UglyNumbers.cpp|ArrayWithDuplicates.cpp|AddDigits.cpp|IsomorphicStrings.cpp|CountPrimes.cpp|HouseRobber.cpp|HappyNumber.cpp|FactorialTrailingZeros.cpp|ExcelColumn.cpp|PascalsTriangle.cpp|Sqrt.cpp|PlusOne.cpp|LengthOfLastWord.cpp|CountAndSay.cpp|ImplementStrStr.cpp|SearchInserchPosition.cpp|RemoveElement.cpp|RemoveDupsSortedArr.cpp|ValidParenthesis.cpp|LongestCommonPrefix.cpp|RomanToInteger.cpp|PalindromeNumber.cpp|ReverseInteger.cpp|TwoSum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -2044,7 +2188,119 @@
 		<project id="Ch03Project.cdt.managedbuild.target.gnu.exe.1092480662" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Example28">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example29">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example20">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example21">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example22">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example23">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example24">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example25">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example26">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example27">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example17">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example18">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example19">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example1">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example31">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example10">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example32">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example11">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example33">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example12">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example34">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example13">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example35">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example14">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example15">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example16">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example9">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example8">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example7">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example6">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example5">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example4">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example3">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example2">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+		<configuration configurationName="Example30">
+			<resource resourceType="PROJECT" workspacePath="/LeetCodeAlgoProjectMedium"/>
+		</configuration>
+	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.2114143187;cdt.managedbuild.config.gnu.exe.debug.2114143187.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.196165482;cdt.managedbuild.tool.gnu.cpp.compiler.input.130011240">
@@ -2061,5 +2317,4 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
-	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 </cproject>

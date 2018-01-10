@@ -18,6 +18,7 @@ using namespace std;
 
 
 class Solution {
+private:
 public:
     static bool isValid(string expr) {
 
@@ -37,7 +38,8 @@ public:
                 switch (expr[i])
                 {
                 case ')':
-
+                	if(s.empty())
+                		return false;
                     // Store the top element in a
                     a = s.top();
                     s.pop();
@@ -45,7 +47,8 @@ public:
                         cout<<"Not Balancedn";
                     break;
                 case '}':
-
+                	if(s.empty())
+                		return false;
                     // Store the top element in b
                     b = s.top();
                     s.pop();
@@ -53,7 +56,8 @@ public:
                         cout<<"Not Balancedn";
                     break;
                 case ']':
-
+                	if(s.empty())
+                		return false;
                     // Store the top element in c
                     c=s.top();
                     s.pop();

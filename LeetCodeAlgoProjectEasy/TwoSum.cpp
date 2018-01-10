@@ -23,6 +23,7 @@ return [0, 1].
 #include <list>
 #include <vector>
 #include <map>
+
 #include <set>
 
 using namespace std;
@@ -49,7 +50,9 @@ public:
 
     		int diffValue = target - value;
     		if(diffValue != value){
-
+    			/*
+    			 * unordered_map C++ find interface takes constant time.
+    			 */
     			valIndexMapFindItr = valIndexMap.find(diffValue);
     			if(valIndexMapFindItr != valIndexMap.end()){
     				resultIndexes.push_back(index);

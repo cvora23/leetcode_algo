@@ -66,7 +66,10 @@ public:
     		sign = -1;
     		x = sign*x;
     	}
-    	while(x>0){
+    	if(x == 0){
+    		return result;
+    	}
+    	while(x){
     		int remainder =  x%10;
     		if(addOvf(result,10,remainder) == 0){
     			return 0;
