@@ -44,8 +44,13 @@ You should return [1, 3, 4].
 class Solution {
 public:
     void dfs(TreeNode* root, int lv, vector<int> &res){
-        if(!root)   return;
-        if(lv>=res.size()) res.push_back(root->val);
+    	// Base condition
+        if(!root)   {
+        	return;
+        }
+        if(lv>=res.size()){
+        	res.push_back(root->val);
+        }
         dfs(root->right,lv+1,res);
         dfs(root->left,lv+1,res);
     }

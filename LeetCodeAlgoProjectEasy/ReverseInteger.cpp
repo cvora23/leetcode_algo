@@ -44,14 +44,13 @@ public:
 	    returns 0, otherwise it returns -1 */
 	 static int addOvf(int a,int multiple, int b)
 	 {
-	     int result = a + b;
 	     int result2 = a*multiple;
 	     if(a > 0 && result2 < 0){
 	    	 return 0;
 	     }else{
 	    	 a = a*multiple;
 	     }
-
+	     int result = a + b;
 	     if(a > 0 && b > 0 && result < 0)
 	         return 0;
 	     if(a < 0 && b < 0 && result > 0)

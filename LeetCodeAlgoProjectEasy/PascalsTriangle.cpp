@@ -30,9 +30,7 @@ Following are the first 6 rows of Pascal’s Triangle.
 1 4 6 4 1
 1 5 10 10 5 1
 
-
 We strongly recommend that you click here and practice it, before moving on to the solution.
-
 
 Method 1 ( O(n^3) time complexity )
 Number of entries in every line is equal to line number. For example, the first line has “1”,
@@ -41,8 +39,6 @@ The value of ith entry in line number line is C(line, i). The value can be calcu
 
 C(line, i)   = line! / ( (line-i)! * i! )
 A simple method is to run two loops and calculate the value of Binomial Coefficient in inner loop.
-
-
 
  */
 
@@ -53,18 +49,6 @@ A simple method is to run two loops and calculate the value of Binomial Coeffici
 // See https://www.geeksforgeeks.org/?p=25621 for details of this function
 int binomialCoeff(int n, int k);
 
-// Function to print first n lines of Pascal's Triangle
-void printPascal(int n)
-{
-  // Iterate through every line and print entries in it
-  for (int line = 0; line < n; line++)
-  {
-    // Every line has number of integers equal to line number
-    for (int i = 0; i <= line; i++)
-      printf("%d ", binomialCoeff(line, i));
-    printf("\n");
-  }
-}
 
 /*
  * Space and time efficient Binomial Coefficient
@@ -83,7 +67,7 @@ C(n, k) = n! / (n-k)! * k!
 After simplifying, we get
 C(n, k) = [n * (n-1) * .... * (n-k+1)] / [k * (k-1) * .... * 1]
 
-Also, C(n, k) = C(n, n-k)  // we can change r to n-r if r > n-r
+Also, C(n, k) = C(n, n-k)  // we can change k to n-k if k > n-k
 
 https://www.youtube.com/watch?time_continue=67&v=d1Mtfs7dWlg
 
@@ -108,6 +92,19 @@ int binomialCoeff(int n, int k)
     }
 
     return res;
+}
+
+// Function to print first n lines of Pascal's Triangle
+void printPascal(int n)
+{
+  // Iterate through every line and print entries in it
+  for (int line = 0; line < n; line++)
+  {
+    // Every line has number of integers equal to line number
+    for (int i = 0; i <= line; i++)
+      printf("%d ", binomialCoeff(line, i));
+    printf("\n");
+  }
 }
 
 // Driver program to test above function

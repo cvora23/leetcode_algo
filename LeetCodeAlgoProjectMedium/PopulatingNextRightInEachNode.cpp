@@ -44,10 +44,6 @@ We have already discussed O(n^2) time and O approach in Connect nodes at same le
 and calling it to set right pointer can result in O(n^2) time complexity.
 
 In this post, We have discussed Level Order Traversal with NULL markers which are needed to mark levels in tree.
-
-
-
-
  */
 
 // Connect nodes at same level using level order

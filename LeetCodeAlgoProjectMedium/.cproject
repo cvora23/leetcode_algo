@@ -99,7 +99,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -154,7 +154,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -205,7 +205,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -263,7 +263,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -321,7 +321,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -379,7 +379,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -437,7 +437,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -495,7 +495,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -553,7 +553,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -611,7 +611,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -669,7 +669,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -727,7 +727,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -785,7 +785,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -843,7 +843,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -901,7 +901,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -959,7 +959,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1017,7 +1017,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1075,7 +1075,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1133,7 +1133,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1191,7 +1191,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1249,7 +1249,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1307,7 +1307,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1365,7 +1365,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1423,7 +1423,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1481,7 +1481,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1539,7 +1539,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1597,7 +1597,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1655,7 +1655,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1713,7 +1713,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1771,7 +1771,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1829,7 +1829,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -1887,7 +1887,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -2003,7 +2003,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -2061,7 +2061,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -2119,7 +2119,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -2177,7 +2177,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="JumpGame.cpp|GroupAnagrams.cpp|MultiplyStrings.cpp|CombinationSum.cpp|SearchForRange.cpp|LargestNumber.cpp|LetterCombinationOfPhoneNo.cpp|ThreeSumClosest.cpp|LongestPalindromicSubstring.cpp|ZigzagConversion.cpp|LengthOfLongestSubstring.cpp|TreeRightHandSideView.cpp|CourseSchedule.cpp|BitwiseAndOfNumbersRange.cpp|RepeatedDnaSequence.cpp|FractionToRecurringDecimal.cpp|MaxProductSubarray.cpp|CompareVersions.cpp|WordBreak.cpp|EvalReveresePolishNotation.cpp|CopyListWithRandomePointer.cpp|GasStations.cpp|PalindromePartitioning.cpp|SurroundedRegion.cpp|TriangleMinSumPath.cpp|WordLadder.cpp|FlattenBinaryTreeToLinkedList.cpp|PopulatingNextRightInEachNode.cpp|UniqueBST.cpp|UniqueBSTNum.cpp|RestoreIpAddresses.cpp|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

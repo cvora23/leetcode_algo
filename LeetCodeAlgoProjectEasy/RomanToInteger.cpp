@@ -118,6 +118,7 @@ int romanToDecimal(string &str)
         }
         else
         {
+        	// there is no next symbol
             res = res + s1;
             i++;
         }

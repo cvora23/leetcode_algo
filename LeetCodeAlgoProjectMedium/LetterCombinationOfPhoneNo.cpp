@@ -30,7 +30,7 @@ Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
 /*
  * Simple and efficient iterative solution.
 
-Explanation with sample input “123”
+Explanation with sample input “1234”
 
 Initial state:
 
@@ -48,9 +48,9 @@ Stage 2 for number “2”:
 result has {“a”, “b”, “c”}
 candidate is “def”
 generate nine strings and put into tmp,
-“a” + “d”, “a”+“e”, “a”+“f”,
-“b” + “d”, “b”+“e”, “b”+“f”,
-“c” + “d”, “c”+“e”, “c”+“f”
+“a”+“d”, “a”+“e”, “a”+“f”,
+“b”+“d”, “b”+“e”, “b”+“f”,
+“c”+“d”, “c”+“e”, “c”+“f”
 so tmp has {“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf” }
 swap result and tmp
 Now result has {“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf” }
@@ -61,7 +61,7 @@ candidate is “ghi”
 generate 27 strings and put into tmp,
 add “g” for each of “ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf”
 add “h” for each of “ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf”
-add “h” for each of “ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf”
+add “i” for each of “ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf”
 so, tmp has
 {“adg”, “aeg”, “afg”, “bdg”, “beg”, “bfg”, “cdg”, “ceg”, “cfg”
 “adh”, “aeh”, “afh”, “bdh”, “beh”, “bfh”, “cdh”, “ceh”, “cfh”
