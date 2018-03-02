@@ -22,7 +22,6 @@ using namespace std;
    Note: Your solution should be in logarithmic time complexity.
 
    Count trailing zeroes in factorial of a number
-2.4
 Given an integer n, write a function that returns count of trailing zeroes in n!.
 
 Examples:

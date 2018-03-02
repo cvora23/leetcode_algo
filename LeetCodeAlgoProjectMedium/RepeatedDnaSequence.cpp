@@ -40,6 +40,7 @@ public:
             string ten = s.substr(i, 10);
             seenItr = seen.find(ten);
             seen.insert(ten);
+            // if seen before put it in repeated
             if(seenItr != seen.end())
             {
             	repeated.insert(ten);

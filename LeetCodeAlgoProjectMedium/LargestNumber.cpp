@@ -77,7 +77,6 @@ int main(){
 		num.push_back(5);
 		num.push_back(9);
 		cout<<Solution::largestNumber(num)<<endl;
-
 	}
 
 	return 0;

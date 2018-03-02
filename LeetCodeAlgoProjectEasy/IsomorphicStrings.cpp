@@ -53,8 +53,7 @@ public:
     		firstItr = firstMap.find(s[i]);
     		secondItr = secondMap.find(t[i]);
 
-        	if((firstItr != firstMap.end()) &&
-        			(secondItr != secondMap.end())){
+        	if((firstItr != firstMap.end()) && (secondItr != secondMap.end())){
         		if(firstItr->second != secondItr->first && firstItr->first != secondItr->second){
         			return false;
         		}
